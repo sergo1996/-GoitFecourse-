@@ -313,6 +313,7 @@ section {
   border-width: 1px;
   border-color: rgb(255, 255, 255);
   border-style: solid;
+  cursor: pointer;
   height: 50px;
   width: 170px;
   left: 46px;
