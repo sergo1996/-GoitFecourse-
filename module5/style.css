@@ -84,14 +84,14 @@ body {
 }
 
 .gallary-photo img {
-  width: 100%;
+  width: 1600px;
   height: 600px;
   object-fit: cover;
 }
 
 .container.gallary-photo {
-  max-height: 600px;
   width: 1600px;
+  max-height: 600px;
 }
 
 .container {
