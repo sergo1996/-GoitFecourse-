@@ -1,379 +1,397 @@
 html {
-  box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 *,
 ::before,
 ::after {
-  box-sizing: inherit;
+    box-sizing: inherit;
 }
 
 body {
-  margin: 0 auto;
-  padding: 0;
+    margin: 0 auto;
+    padding: 0;
 }
 
 .block-header {
-  width: 1110px;
-  margin: 0 auto;
-  padding: 0;
-  padding-bottom: 40px;
-  padding-top: 32px;
+    width: 1110px;
+    margin: 0 auto;
+    padding: 0;
+    padding-bottom: 40px;
+    padding-top: 32px;
 }
 
 .page-nav {
-  text-align: left;
-  float: right;
+    text-align: left;
+    float: right;
 }
 
 .site-navigation {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  font-size: 0;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    font-size: 0;
 }
 
 .site-navigation a {
-  display: block;
-  text-decoration: none;
-  font-size: 14px;
-  font-family: "Open Sans", sans-serif;
-  color: rgb(0, 0, 0);
-  font-weight: bold;
-  text-transform: uppercase;
-  line-height: 0.786;
+    display: block;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: "Open Sans", sans-serif;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 0.786;
 }
 
 .subtitle {
-  float: left;
-  text-decoration: none;
-  font-size: 30px;
-  font-family: "Roboto", sans-serif;
-  color: rgb(0, 0, 0);
-  text-transform: uppercase;
-  line-height: 1.067;
+    float: left;
+    text-decoration: none;
+    font-size: 30px;
+    font-family: "Roboto", sans-serif;
+    color: rgb(0, 0, 0);
+    text-transform: uppercase;
+    line-height: 1.067;
 }
 
 .subtitle::first-letter {
-  color: rgb(26, 188, 156);
+    color: rgb(26, 188, 156);
 }
 
 .site-navigation a:hover {
-  color: rgb(26, 188, 156);
+    color: rgb(26, 188, 156);
 }
 
 .subtitle:hover {
-  color: rgb(67, 37, 201);
+    color: rgb(67, 37, 201);
 }
 
 .site-navigation li {
-  text-align: center;
-  vertical-align: middle;
-  margin-right: 38px;
-  float: left;
+    text-align: center;
+    vertical-align: middle;
+    margin-right: 38px;
+    float: left;
 }
 
 .site-navigation li:last-child {
-  margin-right: 0;
+    margin-right: 0;
 }
 
 .clearfix::after {
-  display: table;
-  content: "";
-  clear: both;
+    display: table;
+    content: "";
+    clear: both;
 }
 
 .gallary-photo img {
-  width: 1600px;
-  height: 600px;
-  object-fit: cover;
+    width: 1600px;
+    height: 600px;
+    object-fit: cover;
 }
 
 .container.gallary-photo {
-  width: 1600px;
-  max-height: 600px;
+    width: 1600px;
+    max-height: 600px;
 }
 
 .container {
-  position: relative;
-  display: block;
-  width: 1110px;
-  margin: 0 auto;
-  padding: 0;
+    position: relative;
+    display: block;
+    width: 1110px;
+    margin: 0 auto;
+    padding: 0;
 }
+
 .mart {
-  font-size: 30px;
-  font-family: "Roboto", sans-serif;
-  color: rgb(26, 188, 156);
-  text-transform: uppercase;
-  line-height: 1.067;
-  position: absolute;
-  left: 241.844px;
-  top: 65.828px;
-  width: 78px;
-  height: 21px;
+    font-size: 30px;
+    font-family: "Roboto", sans-serif;
+    color: rgb(26, 188, 156);
+    text-transform: uppercase;
+    line-height: 1.067;
+    position: absolute;
+    left: 241.844px;
+    top: 65.828px;
+    width: 78px;
+    height: 21px;
 }
 
 main {
-  margin: 0 auto;
-  padding: 0;
+    margin: 0 auto;
+    padding: 0;
 }
 
 .text-description-block1 {
-  padding: 0;
-  margin: 0;
-  font-size: 52px;
-  font-family: "Roboto", sans-serif;
-  color: rgb(255, 255, 255);
-  text-transform: uppercase;
-  line-height: 1.367;
-  text-align: left;
-  display: block;
+    padding: 0;
+    margin: 0;
+    font-size: 52px;
+    font-family: "Roboto", sans-serif;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    line-height: 1.367;
+    text-align: left;
+    display: block;
 }
 
 .part-text p {
-  padding: 0;
-  margin: 0;
-  list-style: none;
-  font-family: "Roboto", sans-serif;
-  color: rgb(255, 255, 255);
-  text-transform: uppercase;
-  line-height: 1.367;
-  text-align: left;
-  font-size: 25px;
-  font-weight: 100;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    font-family: "Roboto", sans-serif;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    line-height: 1.367;
+    text-align: left;
+    font-size: 25px;
+    font-weight: 100;
 }
 
 .part-text {
-  display: block;
-  padding: 0;
-  margin: 0;
-  position: absolute;
-  width: 850px;
-  height: 110px;
-  top: 220px;
-  left: 435px;
+    display: block;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    width: 850px;
+    height: 110px;
+    top: 220px;
+    left: 435px;
 }
 
 .pressure-prev,
 .pressure-next {
-  padding: 0;
-  margin: 0;
-  position: absolute;
-  content: "";
-  width: 100px;
-  height: 100px;
-  border: none;
-  background-color: rgb(78, 198, 171);
-  opacity: 0.651;
-  cursor: pointer;
-  top: 230px;
-  background-position: center;
-  background-repeat: no-repeat;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    content: "";
+    width: 100px;
+    height: 100px;
+    border: none;
+    background-color: rgb(78, 198, 171);
+    opacity: 0.651;
+    cursor: pointer;
+    top: 230px;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .pressure-prev {
-  left: 245px;
-  background-image: url("image/logotype/duzla_left.png");
+    left: 245px;
+    background-image: url("image/logotype/duzla_left.png");
 }
 
 .pressure-next {
-  right: 245px;
-  background-image: url("image/logotype/duzla_right.png");
+    right: 245px;
+    background-image: url("image/logotype/duzla_right.png");
 }
 
 .text-description {
-  font-size: 18px;
-  font-family: "Roboto", sans-serif;
-  color: rgb(255, 255, 255);
-  text-transform: uppercase;
-  line-height: 1.778;
-  text-align: left;
-  background-color: rgb(50, 50, 50);
-  height: 40px;
-  width: 200px;
-  float: left;
-  vertical-align: middle;
-  margin: 0;
-  padding-left: 10px;
+    font-size: 18px;
+    font-family: "Roboto", sans-serif;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    line-height: 1.778;
+    text-align: left;
+    background-color: rgb(50, 50, 50);
+    height: 40px;
+    width: 200px;
+    float: left;
+    vertical-align: middle;
+    margin: 0;
+    padding-left: 10px;
 }
 
 .title {
-  font-size: 48px;
-  font-family: "Roboto", sans-serif;
-  color: rgb(81, 81, 81);
-  text-transform: uppercase;
-  line-height: 0.667;
-  text-align: center;
-  margin: 0;
-  padding-bottom: 80px;
-  padding-top: 100px;
+    font-size: 48px;
+    font-family: "Roboto", sans-serif;
+    color: rgb(81, 81, 81);
+    text-transform: uppercase;
+    line-height: 0.667;
+    text-align: center;
+    margin: 0;
+    padding-bottom: 80px;
+    padding-top: 100px;
 }
 
 .title::after {
-  height: 8px;
-  width: 165px;
-  content: "";
-  background-color: rgb(26, 188, 156);
-  display: block;
-  margin: auto;
-  margin-top: 32px;
+    height: 8px;
+    width: 165px;
+    content: "";
+    background-color: rgb(26, 188, 156);
+    display: block;
+    margin: auto;
+    margin-top: 32px;
 }
 
 .specification-block1 img {
-  max-width: 100%;
-  max-height: 322px;
-  float: left;
+    max-width: 100%;
+    max-height: 322px;
+    float: left;
 }
 
 .site-item {
-  width: 254px;
-  float: left;
-  margin-right: 30px;
+    width: 255px;
+    height: 322px;
+    float: left;
+    list-style: none;
+    position: relative;
 }
+
+.site-item:not(:last-child) {
+    margin-right: 30px;
+}
+
 section {
-  padding-bottom: 100px;
-  background-color: rgb(233, 240, 253);
+    padding-bottom: 100px;
+    background-color: rgb(233, 240, 253);
 }
 
 .specification-block1 {
-  list-style: none;
-  margin: 0 auto;
-  padding: 0;
-  overflow: hidden;
-  max-width: 1110px;
+    list-style: none;
+    margin: 0 auto;
+    padding: 0;
+    overflow: hidden;
+    max-width: 1110px;
 }
 
 .specification-block1 li:last-child {
-  margin-right: 0;
+    margin-right: 0;
 }
 
 .specification-block1 p {
-  height: 40px;
-  width: 54px;
-  float: right;
-  font-size: 18px;
-  font-family: "Roboto", sans-serif;
-  color: rgb(255, 255, 255);
-  background-color: rgb(124, 119, 119);
-  margin: 0;
-  padding-top: 4px;
-  padding-left: 10px;
+    height: 40px;
+    width: 54px;
+    float: right;
+    font-size: 18px;
+    font-family: "Roboto", sans-serif;
+    color: rgb(255, 255, 255);
+    background-color: rgb(124, 119, 119);
+    margin: 0;
+    padding-top: 4px;
+    padding-left: 10px;
+
 }
 
 .site-item:hover .team-list-item {
-  filter: invert(4);
-  cursor: pointer;
+    filter: invert(4);
+    cursor: pointer;
 }
 
 .site-block-logo {
-  height: 322px;
-  max-width: 255px;
-  position: relative;
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  background-color: rgb(0, 0, 0);
-  opacity: 0;
+    list-style: none;
+    padding: 0;
+    top: 90px;
+    left: 32px;
+    position: absolute;
+    height: 110px;
+    width: 170px;
+
 }
 
 .logo {
-  position: absolute;
-  height: 50px;
-  width: 50px;
-  left: 0;
-  border-width: 1px;
-  border-color: rgb(255, 255, 255);
-  border-style: solid;
-  cursor: pointer;
-  top: 92px;
-  background-color: rgb(0, 0, 0);
-  background-position: center;
-  background-repeat: no-repeat;
-  opacity: 1;
+    height: 50px;
+    width: 50px;
+    border-width: 1px;
+    border-color: rgb(255, 255, 255);
+    border-style: solid;
+    cursor: pointer;
+    background-position: center;
+    background-repeat: no-repeat;
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    background-color: rgba(0, 0, 0, 0);
+
 }
 
 .first {
-  left: 46px;
-  background-image: url("image/logotype/logo1.png");
+
+    background-image: url("image/logotype/logo1.png");
 }
 
 .next {
-  left: 106px;
-  background-image: url("image/logotype/logo2.png");
+
+    background-image: url("image/logotype/logo2.png");
 }
 
 .end {
-  left: 166px;
-  background-image: url("image/logotype/logo3.png");
+
+    background-image: url("image/logotype/logo3.png");
+    margin-right: 0;
 }
 
 .logo-bay {
-  position: absolute;
-  border-width: 1px;
-  border-color: rgb(255, 255, 255);
-  border-style: solid;
-  cursor: pointer;
-  height: 50px;
-  width: 170px;
-  left: 46px;
-  top: 148px;
-  background-image: url("image/logotype/logo4.png");
-  background-position-y: center;
-  background-position-x: 10px;
-  background-repeat: no-repeat;
-  opacity: 1;
-  color: white;
-  background-color: rgb(0, 0, 0);
-  padding-left: 22px;
-  /* display: block;
-  text-align: center; */
+    border-width: 1px;
+    border-color: rgb(255, 255, 255);
+    border-style: solid;
+    cursor: pointer;
+    height: 50px;
+    width: 170px;
+    background-image: url("image/logotype/logo4.png");
+    background-position-y: center;
+    background-position-x: 10px;
+    background-repeat: no-repeat;
+    color: white;
+    float: left;
+    padding-left: 35px;
+    background-color: rgba(0, 0, 0, 0);
 }
 
-.logo-bay a {
-  text-decoration: none;
-  font-size: 14px;
-  font-family: "Open Sans", sans-serif;
-  color: rgb(255, 255, 255);
-  text-transform: uppercase;
-  line-height: 3;
-  position: absolute;
-  right: 10px;
-  top: 5px;
+.logo-bay:hover {
+    background-color: rgb(50, 50, 50);
 }
 
-.site-item:hover .site-block-logo {
-  opacity: 0.5;
-}
 
 .next:hover {
-  cursor: pointer;
-  background-color: rgb(26, 188, 156);
+    cursor: pointer;
+    background-color: rgb(26, 188, 156);
 }
 
 .text-footer {
-  height: 100px;
-  background-color: rgb(50, 50, 50);
-  text-align: center;
-  line-height: 6.2;
+    height: 100px;
+    background-color: rgb(50, 50, 50);
+    text-align: center;
+    line-height: 6.2;
 }
 
 .text-span {
-  color: rgb(26, 188, 156);
+    color: rgb(26, 188, 156);
 }
 
 .text-footer p {
-  display: block;
-  margin: 0;
-  padding: 0;
-  font-size: 16px;
-  font-family: "Open Sans", sans-serif;
-  color: rgb(254, 254, 254);
+    display: block;
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-family: "Open Sans", sans-serif;
+    color: rgb(254, 254, 254);
 }
+
 .sub-block {
-  width: 1110px;
+    width: 1110px;
 }
+
 button {
-  margin: 0;
-  padding: 0;
+    margin: 0;
+    padding: 0;
+}
+
+.overley {
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 282px;
+    border: 10px solid rgba(255, 255, 255, 0.9);
+    background-color: rgba(0, 0, 0, 0.549);
+    cursor: pointer;
+}
+
+
+.site-item:hover .overley {
+    opacity: 1;
+}
+
+.team-list-item {
+    position: absolute;
+    bottom: 0;
 }
