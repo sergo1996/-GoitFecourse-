@@ -14,7 +14,7 @@ body {
 }
 
 .block-header {
-    width: 1110px;
+    max-width: 1110px;
     margin: 0 auto;
     padding: 0;
     padding-bottom: 40px;
@@ -54,6 +54,8 @@ body {
     line-height: 1.067;
 }
 
+
+
 .subtitle::first-letter {
     color: rgb(26, 188, 156);
 }
@@ -83,20 +85,52 @@ body {
     clear: both;
 }
 
-.gallary-photo img {
-    width: 1600px;
+/* Секція 1 */
+
+.slider {
+    padding: 0;
+    position: relative;
+    background-image: url("../module5/image/blok1.png");
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
     height: 600px;
-    object-fit: cover;
+
 }
 
-.container.gallary-photo {
-    width: 1600px;
-    max-height: 600px;
+
+
+.gallary-photo {
+    position: relative;
+    top: 50%;
+
+}
+
+.btn_left,
+.btn_right {
+    display: inline-block;
+    width: 104px;
+    height: 104px;
+    background-color: #1abc9c;
+    opacity: 0.65;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: none;
+}
+
+.btn_left {
+    position: absolute;
+    left: 0;
+    background-image: url("image/logotype/duzla_left.png");
+}
+
+.btn_right {
+    position: absolute;
+    right: 0;
+    background-image: url("image/logotype/duzla_right.png");
 }
 
 .container {
-    position: relative;
-    display: block;
     width: 1110px;
     margin: 0 auto;
     padding: 0;
@@ -120,6 +154,15 @@ main {
     padding: 0;
 }
 
+.part-text {
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
 .text-description-block1 {
     padding: 0;
     margin: 0;
@@ -129,8 +172,11 @@ main {
     text-transform: uppercase;
     line-height: 1.367;
     text-align: left;
-    display: block;
+    width: auto;
+    display: inline-block;
+    white-space: nowrap;
 }
+
 
 .part-text p {
     padding: 0;
@@ -145,43 +191,7 @@ main {
     font-weight: 100;
 }
 
-.part-text {
-    display: block;
-    padding: 0;
-    margin: 0;
-    position: absolute;
-    width: 850px;
-    height: 110px;
-    top: 220px;
-    left: 435px;
-}
 
-.pressure-prev,
-.pressure-next {
-    padding: 0;
-    margin: 0;
-    position: absolute;
-    content: "";
-    width: 100px;
-    height: 100px;
-    border: none;
-    background-color: rgb(78, 198, 171);
-    opacity: 0.651;
-    cursor: pointer;
-    top: 230px;
-    background-position: center;
-    background-repeat: no-repeat;
-}
-
-.pressure-prev {
-    left: 245px;
-    background-image: url("image/logotype/duzla_left.png");
-}
-
-.pressure-next {
-    right: 245px;
-    background-image: url("image/logotype/duzla_right.png");
-}
 
 .text-description {
     font-size: 18px;
@@ -197,6 +207,7 @@ main {
     vertical-align: middle;
     margin: 0;
     padding-left: 10px;
+    padding-top: 5px;
 }
 
 .title {
@@ -256,34 +267,42 @@ section {
     margin-right: 0;
 }
 
-.specification-block1 p {
+.team-list-item p {
     height: 40px;
-    width: 54px;
+    width: 55px;
     float: right;
     font-size: 18px;
     font-family: "Roboto", sans-serif;
     color: rgb(255, 255, 255);
     background-color: rgb(124, 119, 119);
     margin: 0;
-    padding-top: 4px;
+    padding-top: 10px;
     padding-left: 10px;
 
 }
 
-.site-item:hover .team-list-item {
-    filter: invert(4);
+
+.site-item:hover p {
+    background-color: rgba(26, 188, 156, 0.5);
+    cursor: pointer;
+
+}
+
+.site-item:hover h3 {
+    background-color: rgb(26, 188, 156);
     cursor: pointer;
 }
 
 .site-block-logo {
     list-style: none;
     padding: 0;
-    top: 90px;
+    margin: 0;
+    top: 50%;
     left: 32px;
     position: absolute;
     height: 110px;
     width: 170px;
-
+    transform: translateY(-50%);
 }
 
 .logo {
@@ -384,6 +403,7 @@ button {
     border: 10px solid rgba(255, 255, 255, 0.9);
     background-color: rgba(0, 0, 0, 0.549);
     cursor: pointer;
+
 }
 
 
