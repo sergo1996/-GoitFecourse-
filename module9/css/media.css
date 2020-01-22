@@ -1,0 +1,173 @@
+@media (max-width: 767px) {
+    .container {
+        width: 320px;
+        margin: 0 auto;
+    }
+
+    .page-nav {
+        padding-top: 22px;
+    }
+
+    .specification-block1 {
+        width: 200px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .site-item-card {
+        /* width: 100%; */
+        margin-bottom: 32px;
+    }
+
+
+    .site-navigation {
+        display: flex;
+        justify-content: center;
+    }
+
+    .page-nav {
+        margin-bottom: 116px;
+    }
+
+    .subtitle {
+        margin-bottom: 40px;
+    }
+
+    .text-share {
+        margin-bottom: 24px;
+    }
+
+    .text-find {
+        margin-bottom: 20px;
+    }
+
+    .head-section {
+        height: 542px;
+    }
+
+    .text-meet {
+        margin-bottom: 20px;
+        width: 264px;
+    }
+
+    .text-find {
+        width: 220px;
+    }
+
+
+    .z1 {
+        order: 1;
+    }
+
+    .z3 {
+        order: 2;
+    }
+
+    .z2 {
+        order: 3;
+    }
+
+    .z4 {
+        order: 4;
+    }
+
+}
+
+@media (min-width: 768px) {
+    .container {
+        width: 660px;
+        margin: 0px auto;
+    }
+
+    .site-item-card {
+        /* width: 49%; */
+    }
+
+    .section-nav {
+        display: flex;
+        /* flex-direction: row-reverse; */
+        justify-content: space-between;
+
+    }
+
+    .page-nav {
+        order: 2;
+    }
+
+
+    .subtitle {
+        order: 1;
+        text-align: left;
+    }
+
+
+    .site-navigation {
+        display: flex;
+    }
+
+    .section-nav {
+        padding-top: 40px;
+        padding-bottom: 162px;
+
+    }
+
+    .text-share {
+        font-size: 52px;
+        padding-bottom: 40px;
+    }
+
+    .text-find {
+        font-size: 24px;
+        padding-bottom: 34px;
+    }
+
+    .specification-block1 {
+        width: 492px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin-bottom: 40px;
+
+    }
+
+    .nav-button {
+        width: 225px;
+
+    }
+
+    .item-button {
+        width: 192px;
+    }
+
+    .text-meet {
+        margin-bottom: 40px;
+    }
+
+}
+
+@media (min-width: 768px) and (max-width: 939px) {
+
+    .site-item-card:nth-child(-n+2) {
+        margin-bottom: 60px;
+    }
+}
+
+@media (min-width: 940px) {
+    .container {
+        width: 940px;
+        margin: 0px auto;
+    }
+
+    .specification-block1 {
+        padding: 0;
+        margin: 0;
+        width: 940px;
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 60px;
+    }
+
+    /* .site-item-card {
+        width: 24%;
+    } */
+}

@@ -1,0 +1,14 @@
+@font-face {
+    src: url("../../module8/fonts/Montserrat-Regular\ \(1\).woff");
+    font-family: "montserrat_regular";
+}
+
+@font-face {
+    src: url("../../module8/fonts/Montserrat-Bold.woff");
+    font-family: "montserrat_bold";
+}
+
+@font-face {
+    src: url("../../module8/fonts/roboto-v20-latin-300.woff2");
+    font-family: "roboto_regular";
+}
