@@ -485,6 +485,10 @@ body {
     background-color: rgb(243, 129, 129);
 }
 
+.block-gallery__logo:hover .block-gallery__logo {
+    fill: #ffffff;
+}
+
 .block-gallery__icon {
     display: inline-block;
     fill: #f38181;
