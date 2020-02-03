@@ -15,7 +15,12 @@ html {
 body {
     margin: 0 auto;
     padding: 0;
-    width: ;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0;
 }
 
 .page-nav {
@@ -76,7 +81,7 @@ body {
     transition: 200ms linear;
 }
 
-.menu-nav>li:hover .menu-nav__link-icon::after {
+.menu-nav__item:hover .menu-nav__link-icon::after {
     opacity: 1;
     -webkit-transition: 200ms linear;
     -o-transition: 200ms linear;
@@ -97,7 +102,7 @@ body {
     margin-bottom: 48px;
 }
 
-.site-logo {
+.page-nav__site-logo {
     margin: 0;
     padding: 0;
     text-decoration: none;
@@ -123,21 +128,6 @@ body {
     fill: #fff;
     text-align: center;
 }
-
-
-.menu-nav a {
-    display: block;
-    text-decoration: none;
-    font-size: 14px;
-    font-family: 'Montserrat-Regular';
-    text-transform: uppercase;
-    line-height: 1.2;
-    color: rgb(255, 255, 255);
-    font-weight: 500;
-}
-
-
-
 
 /* text Baner */
 
@@ -201,14 +191,15 @@ body {
 
 }
 
-.block-socials__title::after {
+.block-socials__title::after,
+.block-welcome__title::after {
     width: 60px;
     height: 4px;
     content: "";
     background-color: rgb(238, 8, 8);
     display: block;
     margin: 0 auto;
-    margin-top: 38px;
+    margin-top: 42px;
 }
 
 
@@ -249,12 +240,6 @@ body {
     text-align: center;
     padding-bottom: 20px;
     font-weight: 400;
-}
-
-.container {
-    width: 1200px;
-    margin: 0 auto;
-    padding: 0;
 }
 
 .short-description {
@@ -425,22 +410,6 @@ body {
     margin-bottom: 15px;
 }
 
-
-.block-socials h2 {}
-
-.Creativity {
-    font-size: 14px;
-    font-family: "Montserrat";
-    color: rgb(51, 51, 51);
-    text-transform: uppercase;
-    line-height: 1.2;
-    text-align: left;
-    position: absolute;
-    left: 1248.937px;
-    top: 1222.6px;
-    z-index: 39;
-}
-
 .img-wrapper {
     overflow: hidden;
     height: 470px;
@@ -485,7 +454,7 @@ body {
     background-color: rgb(243, 129, 129);
 }
 
-.block-gallery__logo:hover .block-gallery__logo {
+.block-gallery__logo:hover .block-gallery__icon {
     fill: #ffffff;
 }
 
