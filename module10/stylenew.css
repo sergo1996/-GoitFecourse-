@@ -93,7 +93,7 @@ body {
     padding: 0;
     background: -webkit-gradient(linear, left bottom, left top, from(rgb(252, 227, 138, 0.9)), to(rgb(243, 129, 129, 0.9))), url(../../-GoitFecourse-/module10/img/baner/Layer\ 15.png);
     background: -o-linear-gradient(bottom, rgb(252, 227, 138, 0.9), rgb(243, 129, 129, 0.9)), url(../../-GoitFecourse-/module10/img/baner/Layer\ 15.png);
-    background: linear-gradient(to top, rgb(252, 227, 138, 0.9), rgb(243, 129, 129, 0.9)), url(../../-GoitFecourse-/module10/img/baner/Layer\ 15.png);
+    background: linear-gradient(to top, rgb(252, 227, 138, 0.9), rgb(243, 129, 129, 0.9)), url(../module10/img/baner/Layer\ 15.png);
     background-position: top center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -175,6 +175,7 @@ body {
     border-width: 3px;
     border-color: rgb(255, 255, 255);
     background-color: rgba(0, 0, 0, 0);
+    cursor: pointer;
 }
 
 .title {
@@ -278,27 +279,27 @@ body {
 
 }
 
-.short-description__item-first::before {
+.short-description__item--first::before {
     background-image: url("../module10/img/logo/logo1-min.png");
 }
 
-.short-description__item-next::before {
+.short-description__item--next::before {
     background-image: url("../module10/img/logo/logo2-min.png");
 }
 
-.short-description__item-end::before {
+.short-description__item--end::before {
     background-image: url("../module10/img/logo/logo3-min.png");
 }
 
-.short-description__item-bay::before {
+.short-description__item--bay::before {
     background-image: url("../module10/img/logo/logo4-min.png");
 }
 
-.short-description__item-between::before {
+.short-description__item--between::before {
     background-image: url("../module10/img/logo/logo5-min.png");
 }
 
-.short-description__item-last::before {
+.short-description__item--last::before {
     background-image: url("../module10/img/logo/logo6-min.png");
 }
 
@@ -469,22 +470,22 @@ body {
     transform: translate(-50%, -50%);
 }
 
-.block-socials__icon-facebook {
+.block-socials__icon--facebook {
     width: 13px;
     height: 26px;
 }
 
-.block-socials__icon-twitter {
+.block-socials__icon--twitter {
     width: 26px;
     height: 26px;
 }
 
-.block-socials__icon-pinterest {
+.block-socials__icon--pinterest {
     width: 21px;
     height: 26px;
 }
 
-.block-socials__icon-instagram {
+.block-socials__icon--instagram {
     width: 26px;
     height: 26px;
 }
@@ -527,22 +528,22 @@ body {
     transition-timing-function: linear;
 }
 
-.block-socials__icon-facebook {
+.block-socials__icon--facebook {
     width: 13px;
     height: 26px;
 }
 
-.block-socials__icon-instagram {
+.block-socials__icon--instagram {
     width: 26px;
     height: 26px;
 }
 
-.block-socials__icon-pinterest {
+.block-socials__icon--pinterest {
     width: 21px;
     height: 26px;
 }
 
-.block-socials__icon-twitter {
+.block-socials__icon--twitter {
     width: 26px;
     height: 26px;
 }
@@ -595,6 +596,7 @@ body {
     text-transform: uppercase;
     line-height: 1.2;
     text-align: center;
+    cursor: pointer;
 }
 
 
@@ -652,27 +654,27 @@ body {
 (-o-min-device-pixel-ratio: 2/1),
 (min-resolution: 192dpi),
 (min-resolution: 2dppx) {
-    .short-description__item-first::before {
+    .short-description__item--first::before {
         background-image: url("../module10/img/logo/logo1-min@2x.png");
     }
 
-    .short-description__item-next::before {
+    .short-description__item--next::before {
         background-image: url("../module10/img/logo/logo2-min@2x.png");
     }
 
-    .short-description__item-end::before {
+    .short-description__item--end::before {
         background-image: url("../module10/img/logo/logo3-min@2x.png");
     }
 
-    .short-description__item-bay::before {
+    .short-description__item--bay::before {
         background-image: url("../module10/img/logo/logo4-min@2x.png");
     }
 
-    .short-description__item-between::before {
+    .short-description__item--between::before {
         background-image: url("../module10/img/logo/logo5-min@2x.png");
     }
 
-    .short-description__item-last::before {
+    .short-description__item--last::before {
         background-image: url("../module10/img/logo/logo6-min@2x.png");
     }
 }
