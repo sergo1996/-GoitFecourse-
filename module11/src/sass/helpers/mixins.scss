@@ -1,0 +1,26 @@
+@mixin center-flex($type: 'all') {
+  display: flex;
+
+  @if $type=='all' {
+    justify-content: center;
+    align-items: center;
+  }
+
+  @else if $type=='hor' {
+    justify-content: center;
+  }
+
+  @else if $type=='ver' {
+    align-items: center;
+  }
+}
+
+@mixin between-flex($display: flex, $justify-content: space-between) {
+  display: $display;
+  justify-content: $justify-content;
+}
+
+@mixin pseudo($display: block, $content: "") {
+  display: $display;
+  content: $content;
+}

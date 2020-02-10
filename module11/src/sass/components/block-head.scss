@@ -1,0 +1,49 @@
+.block-head {
+  padding: 0;
+  margin: 0;
+}
+
+.block-head__share {
+  padding: 0;
+  margin: 0;
+  font-size: 72px;
+  font-family: $main-font-kaushanscrip;
+  font-weight: 400;
+  color: $secondary-bg-color-white;
+  line-height: 1.2;
+  text-align: center;
+  padding-top: 170px;
+  margin-bottom: 64px;
+}
+
+.block-head__find {
+  padding: 0;
+  margin: 0;
+  font-size: 150px;
+  font-family: $main-font-monstarat-bold;
+  color: $secondary-bg-color-white;
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 0.933;
+  text-align: center;
+  margin-bottom: 126px;
+}
+
+.block-head__button {
+  height: 40px;
+  width: 160px;
+  margin: 0 auto;
+  display: block;
+  font-size: 14px;
+  font-family: $main-font-monstarat;
+  color: $secondary-bg-color-white;
+  font-weight: 500;
+  text-transform: uppercase;
+  line-height: 2.2;
+  text-align: center;
+  border-style: solid;
+  border-width: 3px;
+  border-color: rgb(255, 255, 255);
+  background-color: rgba(0, 0, 0, 0);
+  cursor: pointer;
+}
